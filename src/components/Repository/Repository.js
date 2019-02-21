@@ -10,7 +10,6 @@ class Repository extends Component {
     var ItemsRepositories;
     if(this.props.respositoryies){
       ItemsRepositories= this.props.respositoryies.map((ItemRepository,index)=>{
-        index=Math.floor(Math.random()*999999+999999999999999).toString();
            return(
             <RepositoryItem key={index} itemRespos={ItemRepository}/>
            );
