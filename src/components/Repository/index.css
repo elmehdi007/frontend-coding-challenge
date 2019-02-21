@@ -1,0 +1,229 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body{
+  background-color: #f8f9fa;
+
+}
+.warning-off-network-container {
+  margin-top: 38px;
+  text-align: center;
+}
+.warning-off-network{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+
+.section-repository:hover{
+ background: #eee;
+}
+.avatar-owner{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 116px;
+  height: 116px;
+  display: none;
+}
+
+.img-avatar {
+  width: 116px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.img-avatar:hover {
+  opacity: .8;
+}
+
+.section-repository{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.repository-name{
+  margin: 0px 0 12px 0;
+}
+
+.repository-description {
+  margin: 0px 0 12px 0;
+}
+
+.repository-name a,.repository-description {
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+.icon-open-githup-profile{
+  font-size: 14px;
+  margin-left: 13px;
+  margin-bottom: 3px;
+}
+
+.social-icon-star{
+  font-size: 11px;
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.repository-name a{
+  color: #4e4e4e;
+}
+
+
+.repository-name a:hover{
+  color: #1d1c1c;
+}
+
+.social-container-container{
+  margin: 0px 0 12px 0;
+  margin-right: 10px;
+}
+
+.btn-git .fa-star{
+  font-size: 14px;
+}
+
+.btn-git{
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+  color: #24292e;
+  border-radius: 3px;
+  border-radius: 3px 0 0 3px;
+  padding: 0 10px;
+  border: 1px solid rgba(27,31,35,.2);
+  text-transform: capitalize;
+  margin:0;
+  border-right: 0;
+  font-size: 14px;
+}
+
+.social-account{
+  font-size: 14px;
+  border: 1px solid rgba(27,31,35,.2);
+  border-bottom-right-radius: 3px;
+  background-color: #fff;
+  border-radius: 0 3px 3px 0;
+  padding: 1px 4px;
+  margin: 0;
+}
+
+.btn-load-more-container{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.btn-load-more:hover{
+  background-color: rgb(26, 113, 46);
+    background-image: linear-gradient(-180deg, rgb(43, 171, 72), rgb(26, 130, 49) 90%);
+}
+.btn-load-more{
+  background-color: rgb(40, 167, 69);
+  background-image: linear-gradient(-180deg, rgb(52, 208, 88), rgb(40, 167, 69) 90%);
+  padding: 6px 31px;
+  color: #fff !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-load-more::selection{
+   background:none;
+}
+
+.time-intervale{
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+
+.off-netWork .warning-off-line-container,.git-hup-off .warning-off-line-container{
+  display: block;
+}
+
+.off-netWork .btn-load-more,.git-hup-off .btn-load-more{
+  background: #75c788;
+}
+
+.off-netWork .all-repositories-container,.git-hup-off .all-repositories-container{
+    display: none;
+}
+
+
+.warning-off-line-container {
+  margin-top: 30px;
+  text-align: center;
+  display: none;
+}
+
+.warning-off-line {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+body .open-pop-up{
+  overflow: hidden;
+}
+
+.container-fluid.pop-up-container{
+  background: #24292e7a;
+    height: 100%;
+    position: absolute;
+    z-index: 9999999;
+    display: block;
+    top: 0;
+    display: none;
+}
+
+.open-pop-up .container-fluid.pop-up-container{
+   display: block;
+}
+
+@media all and (max-width:300px){
+ .time-intervale{
+  display: block;
+ }
+}
+
+@media all and (max-width:253px){
+  .social-container-container{
+    display: block;
+  }
+ }
+
+ 
+@media all and (max-width:181px){    
+    .btn-load-more {
+      padding: 6px 4px;
+    }
+ }
+
+ @media all and (max-width:181px){    
+  .btn-load-more {
+    padding: 6px 4px;
+  }
+}
+
+
+.hidden{
+  display: none;
+}
